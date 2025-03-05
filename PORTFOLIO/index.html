@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--GOOGLE FONTS-->
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="style.css">
     <title>Agência Ivo</title>
 </head>
@@ -16,27 +19,26 @@
     <header>
       <div class="Interface">
             <div class="logo"> 
-                <a href="logo">
-                    <img src="Imagens/logo.webp" width="150px" alt="Logo da Agencia IVO">
+                <a href="#">
+                    <img src="Imagens/logo.webp" width="150px" alt="Logo da Agência IVO">
                 </a>
-            </div><!--logo-->
+            </div><!-- logo -->
 
             <nav class="menu-desktop"> 
                 <ul>
-                    <l1><a href="#">Inicio</a></l1>
-                    <l1><a href="#">Especialidades</a></l1>
-                    <l1><a href="#">Sobre</a></l1>
-                    <l1><a href="#">Projetos</a></l1>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
                 </ul>
-
             </nav>
 
             <div class="btn-contato">
                 <a href="#">
                     <button>Contato</button>
                 </a>
-            </div><!--btn-contato-->
-      </div> <!--Interface-->
+            </div><!-- btn-contato -->
+      </div> <!-- Interface -->
     </header>
 
     <main>
@@ -49,19 +51,44 @@
                             Atualmente, curso Análise e Desenvolvimento de Sistemas e busco aprimorar minhas habilidades em programação e testes de software. 
                             Tenho experiência na realização de testes e validação de sistemas, sempre focado em contribuir com soluções eficientes e inovadoras. 
                             Meu objetivo é crescer na área de tecnologia e desenvolvimento, buscando constante aprendizado.</p>
-                            <div class="btn-contato">
-                                <a href="#">
-                                        <button> Entre em contato</button>
-                                </a>
-                            </div>
-                    </div> <!--txt-topo-site-->
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div> <!-- txt-topo-site -->
 
                     <div class="img-topo-site">
                         <img src="Imagens/pessoa.png" alt="Imagem">
-                    </div><!--img-topo-site-->
-                </div><!--flex-->
-            </div><!--Interface-->
-        </section><!--topo do site-->
+                    </div><!-- img-topo-site -->
+                </div><!-- flex -->
+            </div><!-- Interface -->
+        </section><!-- topo do site -->
+
+        <section class="especialidades"> 
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div><!-- Especialidades-box -->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja Online</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div><!-- Especialidades-box -->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cpu"></i>
+                        <h3>Blog</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div><!-- Especialidades-box -->
+                </div><!-- flex -->
+            </div>
+        </section><!-- Especialidades -->
     </main>
 
 </body>
